@@ -1,12 +1,11 @@
 import React from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
+import { Routes } from './route';
 
 const App = () => {
   return (
     <Router>
-      <div>
-        Hello World
-      </div>
+      <Routes />
     </Router>
   )
 }
